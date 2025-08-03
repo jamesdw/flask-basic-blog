@@ -49,6 +49,7 @@ A **modular Flask application** built using the **App Factory Pattern** and **Bl
 ## 🗂️ Project Structure
 Using blueprints and going for a modular approach.  Each module has its own folder, its own blueprint, forms, templates and services.  ORginally, had everything in layers grouped by function, so a folder for routes, folder for models, folder for services.  But realized this modular approach seems to be "best practice" as suggested by the flask documentation
 
+<small>
 flask-basic-blog/<br>
 ├── auth/                  
 <br>│   ├── __init__.py
@@ -77,6 +78,7 @@ flask-basic-blog/<br>
 <br>├── run.py                 (Entry point to launch the app)
 <br>├── requirements.txt       (Python dependencies)
 <br>└── README.md              (Documentation)
+</small>
 ---
 
 ## ⚙️ Setup Instructions
