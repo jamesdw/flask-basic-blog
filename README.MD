@@ -49,35 +49,34 @@ A **modular Flask application** built using the **App Factory Pattern** and **Bl
 ## 🗂️ Project Structure
 Using blueprints and going for a modular approach.  Each module has its own folder, its own blueprint, forms, templates and services.  ORginally, had everything in layers grouped by function, so a folder for routes, folder for models, folder for services.  But realized this modular approach seems to be "best practice" as suggested by the flask documentation
 
-flask-basic-blog/
-│
-├── auth/                  # Authentication module
-│   ├── __init__.py
-│   ├── forms.py
-│   ├── routes.py
-│   └── templates/         # Auth-specific templates
-│
-├── blog/                  # Not working yet
-│   ├── __init__.py
-│   ├── forms.py
-│   ├── routes.py
-│   └── templates/
-│
-├── main/                  # Main/root routes module
-│   ├── __init__.py
-│   ├── routes.py
-│   └── templates/
-│
-├── migrations/            # Database migrations
-│
-├── static/                # Static assets (CSS, JS, images)
-│
-├── templates/             # Shared/base templates
-│
-├── config.py              # App configuration
-├── run.py                 # Entry point to launch the app
-├── requirements.txt       # Python dependencies
-└── README.md              # Documentation
+flask-basic-blog/<br>
+├── auth/                  
+<br>│   ├── __init__.py
+<br>│   ├── forms.py
+<br>│   ├── routes.py
+<br>│   └── templates/         (Auth-specific templates)
+<br>│
+<br>├── blog/                  (Not working yet)
+<br>│   ├── __init__.py
+<br>│   ├── forms.py
+<br>│   ├── routes.py
+<br>│   └── templates/
+<br>│
+<br>├── main/                   (Main/root routes module)
+<br>│   ├── __init__.py
+<br>│   ├── routes.py
+<br>│   └── templates/
+<br>│
+<br>├── migrations/            (Database migrations)
+<br>│
+<br>├── static/                (Static assets (CSS, JS, images)
+<br>│
+<br>├── templates/             (Shared/base templates)
+<br>│
+<br>├── config.py              (App configuration)
+<br>├── run.py                 (Entry point to launch the app)
+<br>├── requirements.txt       (Python dependencies)
+<br>└── README.md              (Documentation)
 ---
 
 ## ⚙️ Setup Instructions
